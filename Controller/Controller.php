@@ -1,18 +1,12 @@
 <?php 
 
-require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Home.php');
+require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Home.php'); // Inclusion de tous les models
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Liste.php');
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Article.php');
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Erreur.php');
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Database.php');
 
 
-/*
-$db = Database::getdata();
-
-    $query = $db->query('SELECT * FROM post');
-    $articles = $query->fetchAll(); 
-*/       
 
 class Controller
 {
