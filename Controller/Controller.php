@@ -5,21 +5,6 @@ require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Lis
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Article.php');
 require(dirname(__DIR__).DIRECTORY_SEPARATOR.'Model'. DIRECTORY_SEPARATOR . 'Database.php');
 
-$controlleur = new Controller();
-
-if(empty($_SERVER['QUERY_STRING'])){
-    $controlleur->homecontroller();
-
-}if(isset($_GET['liste'])){
-   $controlleur->listecontroller();
-    
-
-}if(isset($_GET['article'])){
-    $controlleur->articlecontroller($_GET['article']);
-     
- 
-}
-
 class Controller
 {
     public function homecontroller(){
