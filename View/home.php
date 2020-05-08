@@ -7,6 +7,7 @@
       <p class="lead">Retrouve les sources sur mon git T-jegou</p>
       <p class="lead">Il y actuellement <?= $nbarticle ?> articles disponible sur le site</p>
       <ul class="list-unstyled">
+      <li>test 1 2</li>
         
         <a href="index.php?liste">Acceder a la liste de nos articles</a>
       </ul>
